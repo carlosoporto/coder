@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<title>Reserva tu  espacio </title>
+	<link rel="shortcut icon" href="img/Icono.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="description" content="reserva tu cita con nosotros y complase a tu paladar">
+	<meta name="keywords" content="reservas,comida, arequipeÃ±a, arequipa,tipica">
+</head>
+<body>
+	<header class="textLeft">
+		<h1 id="nom"> 
+			Restaurant AQP
+		</h1>
+
+	</header>
+	<!-- inicio de nav -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/logo.jpg" >
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="carta.html">Carta</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="bebidas.html">Bebidas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="reservas.html">Reservas</a>
+					</li>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="Contacto.html">Contactanos</a>
+				</li>
+			</ul>
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+<!-- fin de nav -->
+<main>
+	<section class="textCenter">
+		<form>
+			<fieldset>
+				<legend>Separación</legend>
+				<label> fecha de separación</label><br>
+				<input type="date"><br><br>
+				<label> Hora de separación</label><br>
+				<input type="time"><br><br>
+				<label for="numero_comenzales">comenzales :</label> <br>
+				<input type="number" id="numero_comenzales" placeholder="ingrese # comenzales"><br><br>
+				<label for="telefono">Telefono :</label> <br>
+				<input type="number" id="telefono" placeholder="ingrese telefono"><br><br>
+				<fieldset>
+					<label><input type="checkbox" id="cbox1" value="cbox1"> Nesecita silla de niños</label><br><br>
+				</fieldset>
+				<fieldset>
+					<legend>Forma de pago</legend>
+					<input type="radio" name="pago" id="pago" >Efectivo <br>
+					<input type="radio" name="pago" id="pago" >Tarjeta <br>
+					<input type="radio" name="pago" id="pago" >Vale <br>
+				</fieldset>
+				<label> Notas</label><br>
+				<textarea></textarea><br><br>
+				<input type="submit" value="Consultar disponibilidad" name=""><br>
+			</fieldset>
+		</form>	
+	</section>
+	<section>
+		<form>
+			<fieldset>
+				<legend> Datos cliente</legend>
+				<label for="DNI">DNI :</label> <br>
+				<input type="number" id="DNI" placeholder="ingrese DNI"><br>
+				<label for="nombre">Nombre :</label> <br>
+				<input type="text" id="nombre" placeholder="Nombre y Apellidos"><br>
+				<label for="E-mail">Correo Electronico :</label> <br>
+				<input type="email" id="e-mail" placeholder="correo Electronico"><br>
+			</fieldset>
+			<br>
+		</form>	
+		<br>
+	</section>		
+	<input type="submit" value="Reservar"><br><br>
+	<input type="reset" name="limpiar"><br>
+</main>
+<footer class="textRight">
+	<p>
+		Nuestras redes Sociales
+		<a  href="https://www.youtube.com/watch?v=NLyaUlNOGHU" target="blank">
+			<img width="40" height="30" src="img/youtube.png" alt="">
+		</a>
+		<a href="https://www.facebook.com/pages/category/Sports---Recreation/Paseos-por-mi-Campi%C3%B1a-Arequipe%C3%B1a-1385668008168974/" target="blank">
+			<img width="40" height="30" src="img/facebook.png" alt="">
+		</a>
+	</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
